@@ -1389,7 +1389,7 @@ sources/23 = SubResource("TileSetAtlasSource_p21o7")
 sources/0 = SubResource("TileSetAtlasSource_5qokn")
 sources/1 = SubResource("TileSetAtlasSource_yb6m2")
 
-[node name="Node2D2" type="Node2D"]
+[node name="Node2D3" type="Node2D"]
 script = ExtResource("1_r77k3")
 
 [node name="DefaultUIElements" parent="." instance=ExtResource("1_0ryrq")]
@@ -1432,6 +1432,7 @@ tile_set = SubResource("TileSet_xwx2x")
 position = Vector2(408, 200)
 
 [node name="SpeakerNode" parent="." instance=ExtResource("17_7h2sa")]
+z_index = 2
 position = Vector2(371, 214)
 text = "Search through the chests- you might find something useful"
 
